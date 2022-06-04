@@ -59,11 +59,12 @@ export const SellerInfo = () => {
           </Box>
         </Box>
         <Stack
-          alignItems="center"
+          
           direction="row"
           divider={<StackDivider backgroundColor="blackAlpha.300" h="5em" />}
           justifyContent="space-between"
           marginTop="1.5em"
+          alignItems="end"
         >
           <Box>
             <Text align="center" fontSize="2em">
@@ -71,23 +72,17 @@ export const SellerInfo = () => {
             </Text>
             <Text align="center">Ventas en los últimos 60 días</Text>
           </Box>
-          <Box align="center">
-            <Box width="38px">
-              <img
-                decoding="async"
-                src="https://http2.mlstatic.com/frontend-assets/vpp-frontend/message-positive.svg"
-              />
-            </Box>
-            <Text>Brinda buena atención</Text>
+          <Box>
+            <Text align="center" fontSize="2em" margin="auto" maxWidth="35%" paddingBottom="0.1em">
+              <img src="https://http2.mlstatic.com/frontend-assets/vpp-frontend/message-positive.svg" />
+            </Text>
+            <Text align="center">Brinda buena atención</Text>
           </Box>
-          <Box align="center">
-            <Box width="38px">
-              <img
-                decoding="async"
-                src="https://http2.mlstatic.com/frontend-assets/vpp-frontend/time-positive.svg"
-              />
-            </Box>
-            <Text>Despacha sus productos a tiempo</Text>
+          <Box>
+            <Text align="center" fontSize="2em" margin="auto" maxWidth="30%">
+              <img src="https://http2.mlstatic.com/frontend-assets/vpp-frontend/time-positive.svg" />
+            </Text>
+            <Text align="center">Despacha sus productos a tiempo</Text>
           </Box>
         </Stack>
         <Box

@@ -8,14 +8,19 @@
     "theme": "chakra-cli tokens ./src/theme.ts"
   },
   "dependencies": {
+    "@atlaskit/css-reset": "^6.3.13",
+    "@atlaskit/select": "^15.3.0",
     "@chakra-ui/react": "^1.5.2",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "framer-motion": "^4.1.8",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "16.8",
+    "react-dom": "16.8",
     "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.3.5",
+    "sweetalert2-react": "^0.8.3",
+    "swiper": "^7.4.1"
   },
   "devDependencies": {
     "@chakra-ui/cli": "^1.3.0",
@@ -37,6 +42,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.2",
+    "typescript-plugin-css-modules": "^2.8.0",
     "vite": "^2.1.5"
   }
 }

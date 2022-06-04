@@ -1,0 +1,173 @@
+.container{
+display: flex;
+flex-direction: column;
+padding-bottom: 45px;
+border-bottom: 1px solid var(--borders);
+
+}
+
+
+.table{
+    margin-top: 1rem;
+    width: 100%;
+    text-align:left ;
+    border-spacing: 0ch;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.table th{
+    width: 190px;
+    padding: 1em;
+    display: inline-block;
+    font-family: Proxima Nova;
+    font-weight: normal;
+}
+.table td{
+    padding: 16px 16px 16px 24px;
+    width: 100%;
+}
+.light th{
+    background-color:rgb(245,245,245)
+}
+.light td{
+    background-color: rgb(255,255,255)
+}
+
+
+.dark th{
+    background-color: rgb(235,235,235)
+}
+.dark td{
+    background-color: rgb(245,245,245)
+}
+
+
+.others h3{
+    margin: 1.5rem 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+.otros {
+display: flex;
+
+}
+.otros p {
+    width: 50%;
+
+}
+
+.otros span{
+    font-weight: bold;
+}
+
+.principales{
+    font-size: 1.4em;
+    margin: 1em;
+}
+.otrascarac{
+    font-size: 20px;
+    margin-top: 32px;
+    padding-bottom: 24px;
+}
+
+.swipperBtnNext{
+    font-size: 5px;
+    width: 64px !important;
+    height: 64px !important;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 19%);
+    right: -25px !important;
+}
+.swipperBtnNext:hover{
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.14));
+}
+.swipperBtnPrev:hover{
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.14));
+}
+.swipperBtnNext::after{
+    font-size: 22px!important;
+    color: #3483fa;
+}
+.swipperBtnPrev{
+    font-size: 5px;
+    width: 64px !important;
+    height: 64px !important;
+    background-color: #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 19%);
+    left: -25px !important;
+}
+.swipperBtnPrev::after{
+    font-size: 22px!important;
+    color: #3483fa;
+}
+
+.swipper{
+    
+    position:static !important;
+}
+
+.containerSwiper{
+    position: relative ;
+}
+
+.form{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form textarea{
+    margin-right: 8px;
+    width: 100%;
+    padding: .7rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: none;
+    resize: none;
+    outline: 1px solid rgb(179, 178, 178);
+    font-family: Proxima Nova;
+    overflow-y: hidden;
+}
+.form textarea::placeholder{
+    color: var(--light-gray);
+}
+.form textarea:focus{
+   outline: #2c7aee 2px solid;
+}
+
+.form button{
+    border-radius: 5px;
+    padding: .7rem 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #2c7aee;
+    color: white;
+    font-size: 1rem  ;
+    font-family:Proxima Nova;
+    
+}
+.form button:hover {
+    background-color: #2968C8;
+    transition: 0.3s;
+}
+
+.p{
+    font-size: 16px;
+    margin:1em 0 1em 0;
+
+}
+.form textarea::placeholder{
+    color: rgb(175, 174, 174);
+}
+.figure{
+    min-width: 650px !important;
+    margin-top: 3em !important;
+    margin-left: 0!important;
+}

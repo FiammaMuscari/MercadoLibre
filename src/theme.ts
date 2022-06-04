@@ -5,6 +5,7 @@ export default extendTheme({
     global: {
       body: {
         color: "blackAlpha.900",
+        bg: "#ededed",
       },
     },
   },

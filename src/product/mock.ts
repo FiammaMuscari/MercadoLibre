@@ -10,7 +10,7 @@ export default {
       seller_id: 298424621,
       category_id: "MLA1166",
       official_store_id: null,
-      price: 13999,
+      price: 13.999,
       base_price: 13999,
       original_price: null,
       currency_id: "ARS",

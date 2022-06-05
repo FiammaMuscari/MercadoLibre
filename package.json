@@ -8,8 +8,6 @@
     "theme": "chakra-cli tokens ./src/theme.ts"
   },
   "dependencies": {
-    "@atlaskit/css-reset": "^6.3.13",
-    "@atlaskit/select": "^15.3.0",
     "@chakra-ui/react": "^1.5.2",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",

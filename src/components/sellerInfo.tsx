@@ -59,12 +59,11 @@ export const SellerInfo = () => {
           </Box>
         </Box>
         <Stack
-          
+          alignItems="end"
           direction="row"
           divider={<StackDivider backgroundColor="blackAlpha.300" h="5em" />}
           justifyContent="space-between"
           marginTop="1.5em"
-          alignItems="end"
         >
           <Box>
             <Text align="center" fontSize="2em">

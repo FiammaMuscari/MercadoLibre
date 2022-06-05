@@ -3,13 +3,15 @@ import {IoMdHeartEmpty, IoMdHeart} from "react-icons/io";
 import {AiFillStar, AiOutlineTrophy} from "react-icons/ai";
 import {BiCheckShield} from "react-icons/bi";
 import {Container, Box, Button} from "@chakra-ui/react";
-import Select from "@atlaskit/select";
 
 import details from "../product/mock";
+
+import Select from "./../components/Select";
+
 //encontré las estrellitas despues (/u_u)
 export const BuyNow = () => {
   const [corazon, setCorazon] = useState(false);
-
+  const [selected, setSelected] = useState("1 unidad");
   const {title, sold_quantity: sales, price, initial_quantity: stock} = details.product;
 
   return (
@@ -137,19 +139,7 @@ export const BuyNow = () => {
           <b>Cantidad</b>
         </Box>
         <Box width="140px">
-          <Select
-            className="single-select"
-            classNamePrefix="react-select"
-            inputId="single-select-example"
-            options={[
-              {label: "1 unidad", value: "1"},
-              {label: "2 unidades", value: "2"},
-              {label: "3 unidades", value: "3"},
-              {label: "4 unidades", value: "4"},
-              {label: "5 unidades", value: "5"},
-            ]}
-            placeholder={"1 unidad"}
-          />
+          <Select selected={selected} setSelected={setSelected} />
         </Box>
         <Box fontSize="15px">({stock} disponibles)</Box>
       </Box>

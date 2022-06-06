@@ -61,7 +61,13 @@ const Navbar = () => {
                     type="text"
                     variant="unstyled"
                   />
-                  <Button _focus={{border: "none"}} height={1} margin={"-0.25em"} width={1}>
+                  <Button
+                    _focus={{border: "none"}}
+                    backgroundColor="white"
+                    height={1}
+                    margin={"-0.25em"}
+                    width={1}
+                  >
                     <Icon as={AiOutlineSearch} color="gray.400" height={5} width={5} />
                   </Button>
                 </Stack>

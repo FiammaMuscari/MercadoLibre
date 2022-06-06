@@ -63,7 +63,7 @@ const Navbar = () => {
                   />
                   <Button
                     _focus={{border: "none"}}
-                    backgroundColor="white"
+                    background="white!important"
                     height={1}
                     margin={"-0.25em"}
                     width={1}
